@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'contact/:message', component: ContactComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
